@@ -7,3 +7,9 @@ export function getSquareArea(side: number): number {
 export function getRectangleArea(base: number, height: number): number {
   return base * height;
 }
+
+// Área triângulo =  (base * altura)/2
+export function getTriangleArea(base: number, height: number): number {
+  return (base * height) / 2;
+}
+
